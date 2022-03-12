@@ -22,7 +22,7 @@ function App() {
       {/* list of posts using the map operation */}
       {posts.map((post) => {
         // return a Post compoenent for each post object
-        return <Post key={post.id} {...post} />;
+        return <Post key={post.id} {...post} setPosts={setPosts} />;
       })}
     </div>
   );
