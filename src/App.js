@@ -8,6 +8,7 @@ const posts_db = [
     id: "1",
     img: "https://images.unsplash.com/photo-1595433707802-6b2626ef1c91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80",
     title: "blog post 1",
+    content: "this is the content of the post",
     description: "blog description 1",
   },
 ];
