@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import { AddPost } from "./components/AddPost/AddPost";
 import { Post } from "./components/Post/Post";
+import { UserList } from "./components/UserList/UserList";
 
 const posts_db = [
   {
@@ -18,6 +19,7 @@ function App() {
   const [posts, setPosts] = useState(posts_db);
   return (
     <div className="app_container">
+      <UserList />
       {/* always make the difference between the name inside the component the variable name that you are passing */}
       <AddPost setPostsInsideComponent={setPosts} />
       {/* list of posts using the map operation */}
